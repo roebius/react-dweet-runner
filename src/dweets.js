@@ -104,13 +104,6 @@ const getPixelRatio = context => {
 
             }
 
-            function u8(t) {
-                // Christmas tree
-                // sadropol 3760 (check also  zensaiyuki)
-                c.width|=0;
-                for(let i=1;i<140;i++){let b=2*t+i;let o=200-(S(b+5)*126)%256;x.fillStyle=R(0,o,0,1);x.fillRect(940+((i/60)%1)*S(b)*200,400+i*6%400,8,8);} 
-            }
-
             function u7(t) {
                 // Blue waves
                 // recursive 1978
